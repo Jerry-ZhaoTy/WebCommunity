@@ -28,7 +28,7 @@ public class LoginController implements CommunityConstant {
         return "/site/login";
     }
 
-    @RequestMapping(path = "/register", method = RequestMethod.GET)
+    @RequestMapping(path = "/register", method = RequestMethod.POST)
     public String register(Model model, User user){
         Map<String, Object> map = userService.register(user);
         if (map == null || map.isEmpty()){

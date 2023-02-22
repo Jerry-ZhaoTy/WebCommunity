@@ -34,8 +34,6 @@ public class MailClient {
         } catch (MessagingException e) {
             logger.error("fail to send the mail:", e.getMessage());
         }
-
-
     }
 
 }
