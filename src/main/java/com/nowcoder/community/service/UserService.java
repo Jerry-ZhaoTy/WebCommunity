@@ -103,7 +103,6 @@ public class UserService implements CommunityConstant {
         } else {
             return ACTIVATION_FAILURE;
         }
-
     }
 
 }
