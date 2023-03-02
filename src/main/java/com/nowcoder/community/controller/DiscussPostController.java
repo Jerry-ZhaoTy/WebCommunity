@@ -3,6 +3,7 @@ package com.nowcoder.community.controller;
 import com.nowcoder.community.entity.*;
 import com.nowcoder.community.service.CommentService;
 import com.nowcoder.community.service.DiscussPostService;
+
 import com.nowcoder.community.service.LikeService;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityConstant;
@@ -140,7 +141,5 @@ public class DiscussPostController implements CommunityConstant {
 
         return "/site/discuss-detail";
     }
-
-
 
 }
